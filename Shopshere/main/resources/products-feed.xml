@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <product id="101">
+        <name>SphereBook Pro M3 Laptop</name>
+        <category>Electronics</category>
+        <brand>SphereTech</brand>
+        <price>89999.00</price>
+        <stock>18</stock>
+    </product>
+    <product id="102">
+        <name>AuraSound ANC Headphones</name>
+        <category>Electronics</category>
+        <brand>AuraSound</brand>
+        <price>12499.00</price>
+        <stock>42</stock>
+    </product>
+    <product id="103">
+        <name>PulseSync Smart Watch V2</name>
+        <category>Electronics</category>
+        <brand>PulseTech</brand>
+        <price>6999.00</price>
+        <stock>35</stock>
+    </product>
+    <product id="104">
+        <name>Classic Tailored Oxford Shirt</name>
+        <category>Fashion</category>
+        <brand>Stitch &amp; Co</brand>
+        <price>2199.00</price>
+        <stock>60</stock>
+    </product>
+    <product id="105">
+        <name>SmartBrew Espresso Machine</name>
+        <category>Home &amp; Kitchen</category>
+        <brand>BaristaPro</brand>
+        <price>15999.00</price>
+        <stock>12</stock>
+    </product>
+</catalog>
