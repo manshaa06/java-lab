@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+        https://jakarta.ee/xml/ns/jakartaee/web-jsptaglibrary_3_0.xsd"
+        version="3.0">
+
+    <description>ShopSphere Custom Tag Library for RTU Advanced Java</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>shopsphere</short-name>
+    <uri>http://shopsphere.com/tags</uri>
+
+    <tag>
+        <description>Renders a visual 5-star rating display</description>
+        <name>rating</name>
+        <tag-class>com.shopsphere.tag.RatingTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>rating</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>double</type>
+        </attribute>
+        <attribute>
+            <name>maxStars</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>int</type>
+        </attribute>
+    </tag>
+</taglib>

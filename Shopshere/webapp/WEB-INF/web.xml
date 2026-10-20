@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>ShopSphere E-Commerce Application</display-name>
+
+    <context-param>
+        <param-name>applicationName</param-name>
+        <param-value>ShopSphere Enterprise</param-value>
+    </context-param>
+    <context-param>
+        <param-name>adminContactEmail</param-name>
+        <param-value>admin@shopsphere.com</param-value>
+    </context-param>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+        <cookie-config>
+            <http-only>true</http-only>
+            <name>SHOPSPHERE_JSESSIONID</name>
+        </cookie-config>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <jsp-config>
+        <taglib>
+            <taglib-uri>http://shopsphere.com/tags</taglib-uri>
+            <taglib-location>/WEB-INF/tlds/shopsphere.tld</taglib-location>
+        </taglib>
+    </jsp-config>
+</web-app>
