@@ -11,9 +11,9 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>shopsphere-network</artifactId>
+    <artifactId>shopsphere-rmi</artifactId>
     <packaging>jar</packaging>
-    <name>ShopSphere Network - Java Socket/ServerSocket Client-Server</name>
+    <name>ShopSphere RMI - Remote Inventory Service &amp; Registry</name>
 
     <dependencies>
         <dependency>
@@ -34,7 +34,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.shopsphere.network.server.InventorySocketServer</mainClass>
+                            <mainClass>com.shopsphere.rmi.server.RmiServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
